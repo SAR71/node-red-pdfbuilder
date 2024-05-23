@@ -1,12 +1,12 @@
 {
     "name": "node-red-pdfbuilder",
     "description": "a node to create pdf documents from a well defined json",
-    "version": "1.0",
+    "version": "1.0.0",
     "license": "MIT",
     "author": "Hooke Jr. <platma@platma.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/"
+        "url": "https://github.com/PlatmaC/node-red-pdfbuilder.git"
     },
     "keywords": [
         "node-red",
