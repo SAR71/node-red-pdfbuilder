@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    RED.nodes.registerType('pdfmake', {
+    RED.nodes.registerType('pdfbuilder', {
         category: "advanced",
         color: "rgb(222, 189, 92)",
         icon: "font-awesome/fa-file-pdf-o",
@@ -11,11 +11,11 @@
             outputProperty: {value: "payload"},
         },
         label: function () {
-            return this.name || "pdfmake";
+            return this.name || "pdfbuilder";
         },
         inputs: 1,
         outputs: 1,
-        paletteLabel: "pdfmake",
+        paletteLabel: "pdfbuilder",
         oneditprepare: function () {
             this.editor = RED.editor.createEditor({
                 id: 'node-description-editor',
@@ -53,26 +53,30 @@
         }
 	});
 </script>
-<script type="text/x-red" data-template-name="pdfmake">
+<script type="text/x-red" data-template-name="pdfbuilder">
     <div class="form-row">
-        <label for="node-input-name" ><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
+        <label for="node-input-name" ><i class="fa fa-tag"></i>Name</label>
         <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
     </div>
     <div class="form-row">
-        <label for="node-input-inputProperty"><i class="fa fa-ellipsis-h"></i> <span data-i18n="pdfmake.label.inputProperty"></span></label>
+        <label for="node-input-inputProperty"><i class="fa fa-ellipsis-h"></i>Input property</label>
         <input id="node-input-inputProperty">
     </div>
     <div class="form-row">
-        <label for="node-input-options"><i class="fa fa-code"></i> <span data-i18n="pdfmake.label.options"></span></label>
+        <label for="node-input-options"><i class="fa fa-code"></i>Options</label>
         <input id="node-input-options">
     </div>
     <div class="form-row">
-        <label for="node-input-outputType"><i class="fa fa-sign-out"></i> <span data-i18n="pdfmake.label.outputType"></span></label>
+        <label for="node-input-outputType"><i class="fa fa-sign-out"></i>Output type</label>
         <select id="node-input-outputType"></select>
     </div>
     <div class="form-row">
-        <label for="node-input-outputProperty"><i class="fa fa-sign-out"></i> <span data-i18n="pdfmake.label.outputProperty"></span></label>
+        <label for="node-input-outputProperty"><i class="fa fa-sign-out"></i>Output type</label>
         <input id="node-input-outputProperty">
     </div>
   </script>
+
+  <script type="text/html" data-help-name="pdfbuilder">
+    <p>JSON based node to create PDFs from a given document definition.</p>
+</script>
  
