@@ -14,6 +14,9 @@ npm install node-red-pdfbuilder
 ```
 
 ## Usage
+Instructions of how to describe document you can find at pdfmake website, documentation section.
+[pdfmake website doc](https://pdfmake.github.io/docs/0.3/document-definition-object/) 
+
 There is just one node, and it expects an object in ```msg.payload``` with a valid docDefinition like:
 ``` json
 { 
