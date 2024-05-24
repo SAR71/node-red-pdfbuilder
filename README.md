@@ -1,7 +1,7 @@
 Fork of the node-red-contrib-pdfmake package with error handling, fixed crashes and updated pdfmake library (ver. 0.3.8(beta))
 [node-red-contrib-pdfmake repository](https://github.com/ollixx/node-red-contrib-pdfmake.git)
 
-# node-red-contrib-pdfmake
+# node-red-pdfbuilder
 This node is a simple wrapper around pdfmake, a JSON based solution to create PDFs from a given document definition.
 
 [pdfmake website](http://pdfmake.org/#/)
