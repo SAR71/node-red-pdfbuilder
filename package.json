@@ -1,5 +1,5 @@
 {
-    "name": "node-red-pdfbuilder",
+    "name": "@platmac/node-red-pdfbuilder",
     "description": "a node to create pdf documents from a well defined json",
     "version": "1.0.0",
     "license": "MIT",
