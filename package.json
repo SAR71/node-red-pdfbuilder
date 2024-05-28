@@ -15,7 +15,11 @@
         "pdfmake", 
         "json"
     ],
+    "engines": {
+        "node": ">=16.19.0"
+    },
     "node-red": {
+        "version": ">=3.1.9",
         "nodes": {
             "pdfbuilder": "src/pdfbuilder.js"
         }
