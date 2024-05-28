@@ -19,7 +19,7 @@
         "node": ">=12.0.0"
     },
     "node-red": {
-        "version": ">=2.0.0",
+        "version": ">=3.1.9",
         "nodes": {
             "pdfbuilder": "src/pdfbuilder.js"
         }
