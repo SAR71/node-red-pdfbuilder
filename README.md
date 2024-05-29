@@ -72,6 +72,8 @@ There is just one node, and it expects an object in ```msg.payload``` with a val
 	
 }
 ```
+
+The following properties can be configured in the node editor:
 * **Input property:** Define the property of object which will be used for pdf generation.
 * **Options:** Table layout properties. Full description can be found at [pdfmake doc, tables page](https://pdfmake.github.io/docs/0.1/document-definition-object/tables/).
 * **Output type:** Select the type of generation (Base 64 or Buffer).
@@ -82,4 +84,4 @@ The node returns a ```msg.payload``` holding the created PDF either as a Buffer 
 ## Examples
 Examples are provided using the default node-red way, i.e. use ```import``` in the editor menu and look for examples in the ```@platmac/node-red-pdfbuilder``` package
 
-![flow](./examples/flow.png)
+![flow](./flow.png)
