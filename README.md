@@ -9,43 +9,43 @@ This node is a simple wrapper around pdfmake, a JSON based solution to create PD
 ## Use Cases
 
 Use cases where PDF generation might be necessary:
-* Business Reports and Analysis:
+* **Business Reports and Analysis:**
 * Monthly or quarterly financial reports.
 * Annual performance analysis.
 * Sales and revenue reports.
-* Legal Documents:
+* **Legal Documents:**
 * Contracts and agreements.
 * Non-disclosure agreements (NDAs).
 * Legal briefs and case summaries.
-* Educational Materials:
+* **Educational Materials:**
 * Course syllabi and lecture notes.
 * Research papers and thesis documents.
 * Certificates and diplomas.
-* Marketing Materials:
+* **Marketing Materials:**
 * Brochures and flyers.
 * Product catalogs and price lists.
 * Newsletters and promotional emails.
-* Invoices and Receipts:
+* **Invoices and Receipts:**
 * Automated invoice generation for services and products.
 * Receipts for online and offline purchases.
 * Billing statements for subscription services.
-* Event Management:
+* **Event Management:**
 * Tickets and passes for events.
 * Event schedules and programs.
 * Certificates of attendance.
-* HR and Employee Documentation:
+* **HR and Employee Documentation:**
 * Employment contracts and offer letters.
 * Performance reviews and feedback forms.
 * Training manuals and onboarding documents.
-* Customer Communication:
+* **Customer Communication:**
 * Customized proposals and quotes.
 * Order confirmations and shipping notices.
 * Customer service reports and summaries.
-* Government and Public Services:
+* **Government and Public Services:**
 * Official forms and applications.
 * Licenses and permits.
 * Public notices and bulletins.
-* Technical Documentation:
+* **Technical Documentation:**
 * User manuals and guides.
 * System specifications and requirements.
 * Software documentation and release notes.
@@ -72,8 +72,14 @@ There is just one node, and it expects an object in ```msg.payload``` with a val
 	
 }
 ```
+* **Input property:** Define the property of object which will be used for pdf generation.
+* **Options:** Table layout properties. Full description can be found at [pdfmake doc, tables page](https://pdfmake.github.io/docs/0.1/document-definition-object/tables/).
+* **Output type:** Select the type of generation (Base 64 or Buffer).
+* **Output property:** Define the property of object where generated pdf will be saved.
 
 The node returns a ```msg.payload``` holding the created PDF either as a Buffer or a base64 encoded string (as configured in the node).
 
 ## Examples
 Examples are provided using the default node-red way, i.e. use ```import``` in the editor menu and look for examples in the ```@platmac/node-red-pdfbuilder``` package
+
+![flow](./examples/flow.png)
