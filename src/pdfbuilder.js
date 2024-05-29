@@ -4,7 +4,7 @@ module.exports = function (RED) {
   function pdfbuilder(config) {
     const node = this;
     const pdfMake = require("pdfmake/build/pdfmake.js");
-    pdfMake.vfs = require("pdfmake/build/vfs_fonts.js");
+    pdfMake.vfs = require("vfs_fonts.js");
 
     RED.nodes.createNode(this, config);
 
