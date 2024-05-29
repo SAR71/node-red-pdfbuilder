@@ -77,9 +77,3 @@ The node returns a ```msg.payload``` holding the created PDF either as a Buffer 
 
 ## Examples
 Examples are provided using the default node-red way, i.e. use ```import``` in the editor menu and look for examples in the ```@platmac/node-red-pdfbuilder``` package
-
-### #1 simple text PDF
-This is the first example found on the pdfmake website.
-
-### #2 image & svg example PDF
-This is a custom example showing how to read an image from file and integrate it into the PDF. It also shows a simple SVG to be included as well.
