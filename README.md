@@ -6,6 +6,50 @@ This node is a simple wrapper around pdfmake, a JSON based solution to create PD
 
 [pdfmake website](http://pdfmake.org/#/)
 
+## Use Cases
+
+Use cases where PDF generation might be necessary:
+* Business Reports and Analysis:
+* Monthly or quarterly financial reports.
+* Annual performance analysis.
+* Sales and revenue reports.
+* Legal Documents:
+* Contracts and agreements.
+* Non-disclosure agreements (NDAs).
+* Legal briefs and case summaries.
+* Educational Materials:
+* Course syllabi and lecture notes.
+* Research papers and thesis documents.
+* Certificates and diplomas.
+* Marketing Materials:
+* Brochures and flyers.
+* Product catalogs and price lists.
+* Newsletters and promotional emails.
+* Invoices and Receipts:
+* Automated invoice generation for services and products.
+* Receipts for online and offline purchases.
+* Billing statements for subscription services.
+* Event Management:
+* Tickets and passes for events.
+* Event schedules and programs.
+* Certificates of attendance.
+* HR and Employee Documentation:
+* Employment contracts and offer letters.
+* Performance reviews and feedback forms.
+* Training manuals and onboarding documents.
+* Customer Communication:
+* Customized proposals and quotes.
+* Order confirmations and shipping notices.
+* Customer service reports and summaries.
+* Government and Public Services:
+* Official forms and applications.
+* Licenses and permits.
+* Public notices and bulletins.
+* Technical Documentation:
+* User manuals and guides.
+* System specifications and requirements.
+* Software documentation and release notes.
+
 ## Install
 @platmac/node-red-pdfbuilder can be install using the node-red editor's pallete or by running npm in the console:
 
