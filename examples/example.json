@@ -1,0 +1,31 @@
+[
+    {
+        "id": "2970c9607a26e41a",
+        "type": "inject",
+        "z": "f1cfee91b219c0d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"content\":[\"First paragraph\",\"Another paragraph, this time a little bit longer to make sure, this line will be divided into at least two lines\"]}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "674d91c7d1fcc42c"
+            ]
+        ]
+    }
+]
