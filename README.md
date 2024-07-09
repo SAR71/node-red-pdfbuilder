@@ -1,10 +1,9 @@
 Fork of the node-red-contrib-pdfmake package with error handling, fixed crashes and updated pdfmake library (ver. 0.3.8(beta))
 [node-red-contrib-pdfmake repository](https://github.com/ollixx/node-red-contrib-pdfmake.git)
 
-# @platmac/node-red-pdfbuilder
-This node is a simple wrapper around pdfmake, a JSON based solution to create PDFs from a given document definition.
+# Features
+This node is a simple wrapper around [PDFmake](http://pdfmake.org/#/), a JSON based solution to create PDFs from a given document definition.
 
-[pdfmake website](http://pdfmake.org/#/)
 
 ## Use Cases
 
@@ -72,6 +71,10 @@ There is just one node, and it expects an object in ```msg.payload``` with a val
 	
 }
 ```
+
+## List nodes
+
+**pdfbuilder**: Returns pdf document by specified properties
 
 The following properties can be configured in the node editor:
 * **Input property:** Define the property of object which will be used for pdf generation.
