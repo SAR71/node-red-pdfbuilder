@@ -54,6 +54,10 @@ Use cases where PDF generation might be necessary:
 
 ``` bash
 npm install @SAR71/node-red-pdfbuilder
+
+or
+
+npm install https://codeload.github.com/SAR71/node-red-pdfbuilder/tar.gz/master
 ```
 
 ## Usage
