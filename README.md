@@ -53,7 +53,7 @@ Use cases where PDF generation might be necessary:
 @platmac/node-red-pdfbuilder can be install using the node-red editor's pallete or by running npm in the console:
 
 ``` bash
-npm install @platmac/node-red-pdfbuilder
+npm install @SAR71/node-red-pdfbuilder
 ```
 
 ## Usage
